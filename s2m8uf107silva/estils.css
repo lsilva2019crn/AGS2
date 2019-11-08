@@ -1,0 +1,41 @@
+
+/*móvil verticals*/
+
+@media screen and (max-width:640px) and (orientation:portrait){
+  body {
+    background-color: green;
+  }
+}
+
+
+/*móvil apaisats*/
+
+@media screen and (max-width:640px) and (orientation:landscape){
+  body {
+    background-color: blue;
+  }
+}
+
+
+/*escriptori*/
+
+@media screen and (min-width:641px){
+  body {
+    background-color: yellow;
+  }
+}
+
+/*tablet verticals*/
+@media screen and (min-width:641px) and (max-width:1200px) and (orientation:portrait){
+  body {
+    background-color: pink;
+  }
+}
+
+
+/*tablet apaisats*/
+@media screen and (min-width:641px) and (max-width:1200px) and (orientation:landscape){
+  body {
+    background-color: red;
+  }
+}
