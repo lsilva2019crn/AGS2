@@ -1,0 +1,61 @@
+p{
+  width: 800px;
+  margin: 20px auto;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: justify;
+  text-indent: 20px;
+}
+
+img {
+  width: 100px;
+}
+
+div {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.esquerra{
+  float: left;
+  margin-right: 20px;
+}
+
+.dreta {
+  float: right;
+  margin-left: 20px;
+}
+
+.capitular{
+  float: left;
+  margin-right: 20px;
+  width: 100px;
+}
+
+.inicial:first-letter {
+  color: white;
+  visibility: hidden;
+  display: none;
+}
+
+.inicial {
+  text-indent: -16px;
+}
+
+/*visibility: hidden (solo lo esconde no lo hace desaparecer)*/
+
+
+.c1 {
+  width: 390px;
+  float: left;
+}
+
+.c2 {
+  width: 390px;
+  float: right;
+}
+
+h2 {
+  font-family: georgia, Times;
+  font-family: helvetica, Arial, sans-serif;
+}
