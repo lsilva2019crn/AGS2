@@ -1,0 +1,80 @@
+ul {
+  width: 900px;
+  background-color: pink;
+  overflow: hidden;
+  padding: 10px;
+  margin: 0 auto;
+
+}
+
+li{
+
+  display: block;
+  margin: 10px;
+  width: 200px;
+  height: 200px;
+  float: left;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.7);
+}
+
+
+
+#a01{
+  background-image: url(img/a01.png);
+  background-size: 270px;
+  background-position: center;
+}
+
+#a02{
+  background-image: url(img/a02.png);
+  background-size: 220px;
+  background-position: center;
+}
+
+#a03{
+  background-image: url(img/a03.png);
+  background-size: 220px;
+  background-position: center;
+}
+
+#a04{
+  background-image: url(img/a04.png);
+  background-size: 220px;
+  background-position: center;
+}
+
+#a05{
+  background-image: url(img/a05.png);
+  background-size: 220px;
+  background-position: center;
+}
+
+#a06{
+  background-image: url(img/a06.png);
+  background-size: 220px;
+  background-position: center;
+}
+
+#a07{
+  background-image: url(img/a07.png);
+  background-size: 220px;
+  background-position: center;
+}
+
+#a08{
+  background-image: url(img/a08.png);
+  background-size: 220px;
+  background-position: center;
+}
+
+a {
+  height: 220px;
+  display: block;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 7px;
+  text-shadow: 1px 1px 2px black;
+  font-family: "Verdana", Geneva, sans-serif;
+}
