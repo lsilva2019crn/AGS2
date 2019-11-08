@@ -1,0 +1,16 @@
+
+div {
+  width: 200px;
+  height: 200px;
+  background-color: aquamarine;
+  margin: 10px;
+  font-size: 98px;
+}
+
+.prova {
+  background-color: tomato;
+  position: absolute;
+  top: x;
+  left: 500px;
+  margin: 0;
+}
