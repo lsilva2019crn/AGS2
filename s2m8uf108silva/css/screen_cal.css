@@ -21,8 +21,8 @@ h1 {
   font-size: 3em;
 }
 
-.mesas{
-  width: 100px;
+.calientes{
+  width: 150px;
   height: 100px;
   background: #BBE6FE;
   border-radius: 5px;
@@ -32,7 +32,7 @@ h1 {
 }
 
 #grupomesas{
-  margin: 100px 13px;
+  margin: 100px 15px;
   width: 100%;
   height: 100%;
   top: 0px;
