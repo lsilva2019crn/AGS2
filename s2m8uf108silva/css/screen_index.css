@@ -60,3 +60,107 @@ a:visited{
 a:link {
   color: black;
 }
+body {
+  background-color: #DFFFFB;
+  font-family: 'Cookie', cursive, Helvetica;
+  font-size: 1em;
+}
+
+.barra {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: #96DDD0;
+  height: 83px;
+  width: 100%;
+  overflow: hidden;
+}
+
+h1 {
+  margin-top: 49%;
+  text-align: center;
+  font-size: 3em;
+}
+
+.calientes{
+  width: 150px;
+  height: 100px;
+  background: #A3ECE8;
+  border-radius: 5px;
+  float: left;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+  margin: 8px 8px 8px 19px;
+}
+
+#bikini{
+  background: url(../img/bikini.jpg);
+  background-size: contain;
+  filter: opacity(0.8);
+
+}
+#grupocal{
+  margin: 100px 0px;
+  top: 50px;
+  right: 0px;
+  left: 0px;
+}
+
+p{
+  text-align: center;
+  margin: 20px auto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 70px;
+}
+
+.imgpro{
+  color: white;
+  margin: 25px auto;
+  font-size: 40px;
+  text-shadow: 3px 4px 4px rgba(0, 0, 0, 0.9);
+
+}
+
+#bar2{
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 35px;
+  margin-top: 6px;
+}
+
+#logout{
+  position: absolute;
+  width: 40px;
+  top: 10px;
+  left:15px;
+}
+
+#user{
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  top: 20px;
+  right:15px;
+}
+
+a{
+  color:black;
+}
+
+a:visited{
+  color:black;
+}
+
+a:link{
+  color:black;
+}
+
+#boccaliente{
+  height: 42px;
+  position: absolute;
+  top: 38px;
+  left: 60px;
+
+}
