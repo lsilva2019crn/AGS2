@@ -24,13 +24,19 @@ h1 {
 .calientes{
   width: 150px;
   height: 100px;
-  background: #BBE6FE;
+  background: #A3ECE8;
   border-radius: 5px;
   float: left;
   box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
   margin: 8px 8px 8px 19px;
 }
 
+#bikini{
+  background: url(../img/bikini.jpg);
+  background-size: contain;
+  filter: opacity(0.8);
+
+}
 #grupocal{
   margin: 100px 0px;
   top: 50px;
@@ -44,6 +50,14 @@ p{
   font-style: normal;
   font-weight: normal;
   font-size: 70px;
+}
+
+.imgpro{
+  color: white;
+  margin: 25px auto;
+  font-size: 40px;
+  text-shadow: 3px 4px 4px rgba(0, 0, 0, 0.9);
+
 }
 
 h2{
@@ -79,4 +93,11 @@ a:visited{
 
 a:link{
   color:black;
+}
+
+#boccaliente{
+  height: 42px;
+  position: absolute;
+  top: 38px;
+  left: 60px;
 }
