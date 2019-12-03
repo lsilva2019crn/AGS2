@@ -1,0 +1,108 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color: #222;
+  font-family: helvetica, Sans-serif;
+}
+#tot{
+  margin-left: 25px;
+}
+#barra {
+  height: 50px;
+  background-color: black;
+  opacity: 89%;
+  position: fixed;
+  top: 0px;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  z-index: 10000;
+
+}
+
+
+#logo{
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+#links {
+  position: fixed;
+  list-style: none;
+  left: 90px;
+  top: 0px;
+  padding: 0px;
+
+}
+a{
+  color: #ccc;
+  text-decoration: none;
+}
+a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+.docus{
+  display: block;
+  float: left;
+  padding: 10px;
+}
+
+#extra{
+  position: fixed;
+  list-style: none;
+  right: 10px;
+  top: 0px;
+  padding: 0px;
+}
+
+.extra2{
+  color: #ccc;
+  text-decoration: none;
+  display: block;
+  float: left;
+  padding: 10px;
+}
+
+h2{
+  color: #fff;
+  margin-top: 60px;
+  clear: both;
+}
+
+.cartel{
+  border-radius: 5px;
+}
+
+.cartelgris{
+  border-radius: 5px;
+  filter: grayscale(100%);
+  z-index: -3000;
+}
+
+.conten{
+  margin-right: 20px;
+  width: 175px;
+  float: left;
+}
+
+h3{
+  color: #ccc;
+  font-size: 14px;
+  margin-top:0px;
+}
+
+.any{
+  color: #ccc;
+  font-size: 11px;
+  float: left;
+  margin-top: 0px;
+}
+
+.tipus{
+  color: #ccc;
+  font-size: 11px;
+  float: right;
+  margin-top: 0px;
+  margin-right: 0px;
+}
