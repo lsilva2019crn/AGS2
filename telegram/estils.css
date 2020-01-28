@@ -1,0 +1,407 @@
+
+.bocadillo{
+  min-height: 3rem;
+  width: 13rem;
+  background: #B3E4CF;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  margin-left: 2rem;
+  clear: both;
+}
+
+.bocadillo:before{
+  content: "";
+  display: block;
+  position: relative;
+  height: 0rem;
+  width: 0rem;
+  top: 1rem;
+  left: 12rem;
+  border-right: 1rem solid transparent;
+  border-left: 1rem solid transparent;
+  border-top: 1rem solid transparent;
+  border-bottom: 1rem solid #B3E4CF;
+  border-radius: 0.3rem;
+}
+.izq{
+  float: right;
+  margin-right: 2rem;
+  transform: translate(0,0rem)
+
+}
+.der{
+  transform: scale(-1,1);
+  background: #F9F6F6;
+  float: left;
+}
+
+.der:before{
+ border-bottom: 1rem solid #F9F6F6;
+}
+.cont{
+  background: #C7C7C7;
+  overflow: hidden;
+  width: 20rem;
+  height: 21rem;
+  border-radius: 1rem;
+  margin: 1rem;
+  float: left;
+}
+
+.boton{
+  height: 3rem;
+  width: 3rem;
+  border-radius: 3rem;
+  border: 0.3rem solid #5D5D5D;
+  margin: 16rem auto;
+}
+
+.boton:before{
+  content:"";
+  display: block;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 2rem;
+  background: #5D5D5D;
+  margin: 0.5rem;
+}
+
+
+
+
+
+
+
+
+
+.izq2{
+  float: right;
+  margin-right: 2rem;
+  transform: translate(0,0rem)
+
+}
+.der2{
+  transform: scale(-1,1);
+  background: #F9F6F6;
+  float: left;
+}
+
+.der2:before{
+ border-bottom: 1rem solid #F9F6F6;
+}
+
+.cont2{
+  background: #269AF5;
+  overflow: hidden;
+  width: 20rem;
+  height: 21rem;
+  border-radius: 1rem;
+  margin: 1rem;
+  float: left;
+}
+
+.boton2{
+  height: 3rem;
+  width: 3rem;
+  border-radius: 3rem;
+  border: 0.3rem solid #fff;
+  margin: 16rem auto;
+}
+
+.boton2:before{
+  content:"";
+  display: block;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 2rem;
+  background: #fff;
+  margin: 0.5rem;
+}
+
+.bocadillo2{
+  min-height: 3rem;
+  width: 15rem;
+  background: #92E5F5;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  margin-left: 2rem;
+  clear: both;
+}
+
+.bocadillo2:before{
+  content: "";
+  display: block;
+  position: relative;
+  height: 0rem;
+  width: 0rem;
+  top: 1rem;
+  left: 14rem;
+  border-right: 1rem solid transparent;
+  border-left: 1rem solid transparent;
+  border-top: 1rem solid transparent;
+  border-bottom: 1rem solid #92E5F5;
+  border-radius: 0.3rem;
+}
+
+
+
+
+
+.izq3{
+  float: right;
+  margin-right: 2rem;
+  transform: translate(0,0rem)
+
+}
+.der3{
+  transform: scale(-1,1);
+  background: #4D667E;
+  float: left;
+}
+
+.der3:before{
+ border-bottom: 1rem solid #4D667E;
+}
+
+.cont3{
+  background: #133453;
+  overflow: hidden;
+  width: 20rem;
+  height: 21rem;
+  border-radius: 1rem;
+  margin: 1rem;
+  float: left;
+}
+
+.boton3{
+  height: 3rem;
+  width: 3rem;
+  border-radius: 3rem;
+  border: 0.3rem solid #5887B4;
+  margin: 16rem auto;
+}
+
+.boton3:before{
+  content:"";
+  display: block;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 2rem;
+  background: #5887B4;
+  margin: 0.5rem;
+}
+
+.bocadillo3{
+  min-height: 3rem;
+  width: 15rem;
+  background: #3D7FBE;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  margin-left: 2rem;
+  clear: both;
+}
+
+.bocadillo3:before{
+  content: "";
+  display: block;
+  position: relative;
+  height: 0rem;
+  width: 0rem;
+  top: 1rem;
+  left: 14rem;
+  border-right: 1rem solid transparent;
+  border-left: 1rem solid transparent;
+  border-top: 1rem solid transparent;
+  border-bottom: 1rem solid #3D7FBE;
+  border-radius: 0.3rem;
+}
+
+
+
+
+
+.izq4{
+  float: right;
+  margin-right: 2rem;
+  transform: translate(0,0rem)
+
+}
+.der4{
+  transform: scale(-1,1);
+  background: #D0D1D1;
+  float: left;
+}
+
+.der4:before{
+ border-bottom: 1rem solid #D0D1D1;
+}
+
+.cont4{
+  background: #F2F3F3;
+  overflow: hidden;
+  width: 20rem;
+  height: 21rem;
+  border-radius: 1rem;
+  margin: 1rem;
+  float: left;
+}
+
+.boton4{
+  height: 3rem;
+  width: 3rem;
+  border-radius: 3rem;
+  border: 0.3rem solid #828282;
+  margin: 16rem auto;
+}
+
+.boton4:before{
+  content:"";
+  display: block;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 2rem;
+  background: #828282;
+  margin: 0.5rem;
+}
+
+.bocadillo4{
+  min-height: 3rem;
+  width: 15rem;
+  background: #269AF5;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  margin-left: 2rem;
+  clear: both;
+}
+
+.bocadillo4:before{
+  content: "";
+  display: block;
+  position: relative;
+  height: 0rem;
+  width: 0rem;
+  top: 1rem;
+  left: 14rem;
+  border-right: 1rem solid transparent;
+  border-left: 1rem solid transparent;
+  border-top: 1rem solid transparent;
+  border-bottom: 1rem solid #269AF5;
+  border-radius: 0.3rem;
+}
+
+
+
+
+
+
+#contsupremo{
+  margin-left: 2%;
+  padding: 0;
+}
+body{
+  margin: 0;
+}
+
+
+
+
+#pantalla{
+  height: 25rem;
+  padding: 1px;
+  background-color: #C7C7C7;
+}
+
+.bocadillomuestra{
+  height: 3rem;
+  width: 30rem;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  margin-left: 2rem;
+  clear: both;
+  background: #F9F6F6;
+  float: left;
+}
+
+.bocadillomuestra:before{
+  content: "";
+  display: block;
+  position: relative;
+  height: 0rem;
+  width: 0rem;
+  top: 1rem;
+  left: -1rem;
+  border-right: 1rem solid transparent;
+  border-left: 1rem solid transparent;
+  border-top: 1rem solid transparent;
+  border-bottom: 1rem solid #F9F6F6;
+  border-radius: 0.3rem;
+}
+
+p{
+  font-size: 22px;
+  font-family: helvetica;
+  margin-top: -1.2rem;
+  margin-left: 1rem;
+}
+
+.bocadillomuestrader{
+  height: 3rem;
+  width: 30rem;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  margin-right: 2rem;
+  clear: both;
+  background: #B3E4CF;
+  float: right;
+}
+
+.bocadillomuestrader:before{
+  content: "";
+  display: block;
+  position: relative;
+  height: 0rem;
+  width: 0rem;
+  top: 1rem;
+  left: 29rem;
+  border-right: 1rem solid transparent;
+  border-left: 1rem solid transparent;
+  border-top: 1rem solid transparent;
+  border-bottom: 1rem solid #B3E4CF;
+  border-radius: 0.3rem;
+}
+
+
+
+
+
+
+
+
+
+#slider{
+  width: 100%;
+  background-color: pink;
+  overflow-x: scroll;
+  margin: 0;
+  padding: 0;
+}
+
+.slider::-webkit-scrollbar {
+  display: none;
+}
+
+.colors{
+  background-color: red;
+  height: 7rem;
+  width: 200%;
+
+}
+.bola{
+  height: 90px;
+  width: 90px;
+  background-color: blue;
+  border-radius: 50%;
+  margin-top: 10px;
+  margin-left: 40px;
+  float: left;
+}
