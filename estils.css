@@ -73,6 +73,12 @@ li{
   background-size: 220px;
   background-position: center;
 }
+
+#a10{
+  background-image: url(img/a10.png);
+  background-size: 220px;
+  background-position: center;
+}
 a {
   height: 220px;
   display: block;
