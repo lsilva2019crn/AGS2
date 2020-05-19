@@ -13,38 +13,51 @@
   <meta charset="utf-8">
   <link rel="stylesheet" href="css/style.css">
   <title>Bidaia</title>
-  <script type="text/javascript" src="js/java.js"></script>
 </head>
 <body>
-  <div class="contenedor">
-    <div class="users1">
-      <img class="user" src="img/user10.jpg" alt="">
-      <p class="nomuser">PaquitaCoronavirus</p>
-      <p class="nomlloc">Africa</p>
+  <div class="contenedor" id="contgrey">
+    <p id="name">Anna_33</p>
+    <img id="flecha" src="img/flecha.png" alt="">
+    <div class="icononotuser"></div>
+    <p id="followers">Followers</p>
+    <p id="follow">Follow</p>
+    <p id="followersnum">444</p>
+    <p id="follownum">302</p>
+
+
+
+    <a href="notuserplanns.html">
+      <div id="followuser2">
+        <p id="followtext2">Following</p>
+      </div>
+    </a>
+
+    <div id="mensajeuser">
+      <p id="mensajetext">Massage</p>
     </div>
 
-    <div class="send">
-      <input type="text" id="write" placeholder="Send a message...">
+
+
+    <a href="notusertrips.html">
+    <div id="trips04">
+      <p id="tripstext">Trips</p>
     </div>
+    </a>
+      <div id="planns04">
+        <p id="plannstext">Planns</p>
+      </div>
 
-    <img id="like"src="img/unlike.png" alt="">
 
-    <script type="text/javascript">
-      var imatge=document.getElementById('like');
-      imatge.addEventListener('click',like);
+    <a href="mexico.html">
+      <p class="nompais" id="p09trip">MEXICO</p>
+      <div id="rect09trip"></div>
+    </a>
 
-      function like(){
-        if(imatge.src.match("img/unlike.png")){
-          imatge.src="img/like.png";
-          console.log("like");
-        }
+    <a href="ibiza.html">
+      <p class="nompais" id="p10trip">IBIZA</p>
+      <div id="rect10trip"></div>
+    </a>
 
-        else{
-          imatge.src="img/unlike.png";
-          console.log("unlike");
-        }
-      }
-    </script>
 
 
     <img id="add"src="img/addcontent.png" alt="">
@@ -67,19 +80,6 @@
       <img src="img/bar.png" alt="">
     </div>
 
-    <div class="bar">
-      <img src="img/bar.png" alt="">
-    </div>
-
-    <video src="videos/africa.mp4" width="411px" height="731px"  autoplay loop muted></video>
-
-    <div class="users2">
-      <img class="user" src="img/user6.jpg" alt="">
-      <p class="nomuser">Clara_96</p>
-      <p class="nomlloc">Suiza</p>
-    </div>
-
-    <video id="video2"src="videos/suiza.mp4" width="411px" height="731px"  autoplay loop muted></video>
 
   </div>
 </body>

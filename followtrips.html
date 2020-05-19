@@ -13,38 +13,65 @@
   <meta charset="utf-8">
   <link rel="stylesheet" href="css/style.css">
   <title>Bidaia</title>
-  <script type="text/javascript" src="js/java.js"></script>
 </head>
 <body>
-  <div class="contenedor">
-    <div class="users1">
-      <img class="user" src="img/user10.jpg" alt="">
-      <p class="nomuser">PaquitaCoronavirus</p>
-      <p class="nomlloc">Africa</p>
+  <div class="contenedor" id="contgrey02">
+    <p id="name">Anna_33</p>
+    <img id="flecha" src="img/flecha.png" alt="">
+    <div class="icononotuser"></div>
+    <p id="followers">Followers</p>
+    <p id="follow">Follow</p>
+    <p id="followersnum">444</p>
+    <p id="follownum">302</p>
+
+
+
+    <a href="notusertrips.html">
+      <div id="followuser2">
+        <p id="followtext2">Following</p>
+      </div>
+    </a>
+
+    <div id="mensajeuser">
+      <p id="mensajetext">Massage</p>
     </div>
 
-    <div class="send">
-      <input type="text" id="write" placeholder="Send a message...">
+
+
+
+    <div id="trips03">
+      <p id="tripstext">Trips</p>
     </div>
 
-    <img id="like"src="img/unlike.png" alt="">
+    <a href="notuserplanns.html">
+      <div id="planns03">
+        <p id="plannstext">Planns</p>
+      </div>
+    </a>
 
-    <script type="text/javascript">
-      var imatge=document.getElementById('like');
-      imatge.addEventListener('click',like);
 
-      function like(){
-        if(imatge.src.match("img/unlike.png")){
-          imatge.src="img/like.png";
-          console.log("like");
-        }
 
-        else{
-          imatge.src="img/unlike.png";
-          console.log("unlike");
-        }
-      }
-    </script>
+    <a href="londres.html">
+      <p class="nompais" id="p05trip">LONDON</p>
+      <div id="rect05trip"></div>
+    </a>
+
+    <a href="barcelona.html">
+      <p class="nompais" id="p06trip">BARCELONA</p>
+      <div id="rect06trip"></div>
+    </a>
+
+    <a href="thailandia2.html">
+      <p class="nompais" id="p07trip">THAILAND</p>
+      <div id="rect07trip"></div>
+    </a>
+
+    <a href="noruega.html">
+      <p class="nompais" id="p08trip">NORWAY</p>
+      <div id="rect08trip"></div>
+    </a>
+
+
 
 
     <img id="add"src="img/addcontent.png" alt="">
@@ -67,19 +94,6 @@
       <img src="img/bar.png" alt="">
     </div>
 
-    <div class="bar">
-      <img src="img/bar.png" alt="">
-    </div>
-
-    <video src="videos/africa.mp4" width="411px" height="731px"  autoplay loop muted></video>
-
-    <div class="users2">
-      <img class="user" src="img/user6.jpg" alt="">
-      <p class="nomuser">Clara_96</p>
-      <p class="nomlloc">Suiza</p>
-    </div>
-
-    <video id="video2"src="videos/suiza.mp4" width="411px" height="731px"  autoplay loop muted></video>
 
   </div>
 </body>

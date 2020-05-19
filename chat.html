@@ -13,41 +13,40 @@
   <meta charset="utf-8">
   <link rel="stylesheet" href="css/style.css">
   <title>Bidaia</title>
-  <script type="text/javascript" src="js/java.js"></script>
 </head>
 <body>
   <div class="contenedor">
-    <div class="users1">
-      <img class="user" src="img/user10.jpg" alt="">
-      <p class="nomuser">PaquitaCoronavirus</p>
-      <p class="nomlloc">Africa</p>
-    </div>
 
-    <div class="send">
-      <input type="text" id="write" placeholder="Send a message...">
-    </div>
+<div class="barra">
+  <a href="chats.html">
+    <img src="img/back.png" alt="" id="back">
+  </a>
+  <img src="img/videollamada.png" alt="" id="videollamada">
+  <div class="usuario" id="us12"></div>
+  <p id="nombreuser">JosephTravel</p>
+</div>
 
-    <img id="like"src="img/unlike.png" alt="">
+  <div class="bocadilloizq" id="boc1">
+    <p class="textboc">Hey Jessica! how are you?</p>
+  </div>
 
-    <script type="text/javascript">
-      var imatge=document.getElementById('like');
-      imatge.addEventListener('click',like);
+  <div class="bocadilloder" id="boc2">
+    <p class="textboc">Hi Joseph! I'm in Paris these days but I
+      want to see more of the Maldives!</p>
+  </div>
 
-      function like(){
-        if(imatge.src.match("img/unlike.png")){
-          imatge.src="img/like.png";
-          console.log("like");
-        }
+  <div class="bocadilloizq02" id="boc3">
+    <p class="textboc">Now that I am in Maldives I can show you
+      the best beaches</p>
+  </div>
 
-        else{
-          imatge.src="img/unlike.png";
-          console.log("unlike");
-        }
-      }
-    </script>
+  <div class="write">
+    <img id="camarachat"src="img/camara.png" alt="">
+    <input type="text" class="writehere" placeholder="Write here...">
+
+  </div>
 
 
-    <img id="add"src="img/addcontent.png" alt="">
     <a href="explore.html">
       <img id="explore"src="img/search.png" alt="">
     </a>
@@ -67,19 +66,6 @@
       <img src="img/bar.png" alt="">
     </div>
 
-    <div class="bar">
-      <img src="img/bar.png" alt="">
-    </div>
-
-    <video src="videos/africa.mp4" width="411px" height="731px"  autoplay loop muted></video>
-
-    <div class="users2">
-      <img class="user" src="img/user6.jpg" alt="">
-      <p class="nomuser">Clara_96</p>
-      <p class="nomlloc">Suiza</p>
-    </div>
-
-    <video id="video2"src="videos/suiza.mp4" width="411px" height="731px"  autoplay loop muted></video>
 
   </div>
 </body>

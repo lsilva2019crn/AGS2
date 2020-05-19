@@ -13,38 +13,31 @@
   <meta charset="utf-8">
   <link rel="stylesheet" href="css/style.css">
   <title>Bidaia</title>
-  <script type="text/javascript" src="js/java.js"></script>
 </head>
 <body>
-  <div class="contenedor">
-    <div class="users1">
-      <img class="user" src="img/user10.jpg" alt="">
-      <p class="nomuser">PaquitaCoronavirus</p>
-      <p class="nomlloc">Africa</p>
-    </div>
+  <div class="contenedor" id="contgrey">
 
-    <div class="send">
-      <input type="text" id="write" placeholder="Send a message...">
-    </div>
 
-    <img id="like"src="img/unlike.png" alt="">
+      <div class="rectangle" id="search">
+        <img id="imgsearch"src="img/searchexplore.png" alt="">
+        <input type="text" class="textmailpasw" placeholder="Search...">
+      </div>
 
-    <script type="text/javascript">
-      var imatge=document.getElementById('like');
-      imatge.addEventListener('click',like);
+    <a href="notusertrips.html">
+      <div class="usuario" id="us01">
+        <p class="textusuario">Anna_33</p>
+      </div>
+    </a>
+      <div class="usuario" id="us02">
+        <p class="textusuario">Rochi_1997</p>
+      </div>
+      <div class="usuario" id="us03">
+        <p class="textusuario">Marleneix</p>
+      </div>
+      <div class="usuario" id="us04">
+        <p class="textusuario">Asethicgrunge</p>
+      </div>
 
-      function like(){
-        if(imatge.src.match("img/unlike.png")){
-          imatge.src="img/like.png";
-          console.log("like");
-        }
-
-        else{
-          imatge.src="img/unlike.png";
-          console.log("unlike");
-        }
-      }
-    </script>
 
 
     <img id="add"src="img/addcontent.png" alt="">
@@ -67,19 +60,6 @@
       <img src="img/bar.png" alt="">
     </div>
 
-    <div class="bar">
-      <img src="img/bar.png" alt="">
-    </div>
-
-    <video src="videos/africa.mp4" width="411px" height="731px"  autoplay loop muted></video>
-
-    <div class="users2">
-      <img class="user" src="img/user6.jpg" alt="">
-      <p class="nomuser">Clara_96</p>
-      <p class="nomlloc">Suiza</p>
-    </div>
-
-    <video id="video2"src="videos/suiza.mp4" width="411px" height="731px"  autoplay loop muted></video>
 
   </div>
 </body>
