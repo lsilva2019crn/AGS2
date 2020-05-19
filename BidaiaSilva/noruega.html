@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+  <html lang="es" manifest="cache.manifest">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="red">
+  <meta name="theme-color" content="red">
+  <meta name="msapplication-navbutton-color" content="red">
+  <link rel="icon" sizes="192x192" href="img/icon.png">
+  <link rel="icon" sizes="512x512" href="img/icon.png">
+  <link rel="apple-touch-icon" href="img/icon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable = no">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Bidaia</title>
+  <script type="text/javascript" src="js/java.js"></script>
+</head>
+<body>
+  <div class="contenedor">
+
+
+    <img id="like"src="img/unlike.png" alt="">
+
+    <script type="text/javascript">
+      var imatge=document.getElementById('like');
+      imatge.addEventListener('click',like);
+
+      function like(){
+        if(imatge.src.match("img/unlike.png")){
+          imatge.src="img/like.png";
+          console.log("like");
+        }
+
+        else{
+          imatge.src="img/unlike.png";
+          console.log("unlike");
+        }
+      }
+    </script>
+
+    <div class="send">
+      <input type="text" id="write" placeholder="Send a message...">
+    </div>
+    <img id="add"src="img/addcontent.png" alt="">
+    <a href="explore.html">
+      <img id="explore"src="img/search.png" alt="">
+    </a>
+    <a href="noti.html">
+      <img id="notis"src="img/notification.png" alt="">
+    </a>
+    <a href="index.html">
+      <img id="home"src="img/home.png" alt="">
+    </a>
+    <a href="chats.html">
+      <img id="chats"src="img/message.png" alt="">
+    </a>
+    <a href="usertrips.html">
+      <img class="youuser" src="img/user.jpg" alt="">
+    </a>
+    <div class="bar">
+      <img src="img/bar.png" alt="">
+    </div>
+
+    <div class="bar">
+      <img src="img/bar.png" alt="">
+    </div>
+
+    <div class="users1">
+      <img class="user" src="img/user2.jpg" alt="">
+      <p class="nomuser">Anna_33</p>
+      <p class="nomlloc">Norway</p>
+    </div>
+
+    <video src="videos/noruega01.mp4" width="411px" height="731px"  autoplay loop muted></video>
+
+    <div class="users2">
+      <img class="user" src="img/user2.jpg" alt="">
+      <p class="nomuser">Anna_33</p>
+      <p class="nomlloc">Norway</p>
+    </div>
+
+    <video id="video2"src="videos/noruega02.mp4" width="411px" height="731px"  autoplay loop muted></video>
+
+
+    <div class="users3">
+      <img class="user" src="img/user2.jpg" alt="">
+      <p class="nomuser">Anna_33</p>
+      <p class="nomlloc">Norway</p>
+    </div>
+
+    <video id="video3"src="videos/noruega03.mp4" width="411px" height="731px"  autoplay loop muted></video>
+
+  </div>
+</body>
+</html>
