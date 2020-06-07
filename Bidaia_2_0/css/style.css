@@ -1,0 +1,1348 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+.contenedor{
+  position: relative;
+  width: 411px;
+  height: 731px;
+  margin: auto;
+}
+
+#contgrey{
+  background-color: #EDECEC;
+
+}
+
+#contgrey02{
+  background-color: #EDECEC;
+  height: 930px;
+}
+#fondo{
+  width: 411px;
+  height: 731px;
+}
+
+#logosplash{
+  position: absolute;
+  left: 85px;
+  top: 343px;
+  z-index: 2;
+}
+
+#logowel{
+  position: absolute;
+  left: 85px;
+  top: 249px;
+  z-index: 2;z
+}
+
+#logolog{
+  position: absolute;
+  left: 85px;
+  top: 81px;
+  z-index: 2;z
+}
+.slogan{
+  position: absolute;
+  left: 108px;
+  top: 408px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #FFFFFF;
+  text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.8);
+}
+#slog{
+  top: 200px;
+}
+
+#login{
+  position: absolute;
+  left: 77px;
+  top: 507px;
+}
+
+#new{
+  position: absolute;
+  left: 170px;
+  top: 573px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #FFF;
+}
+#newacclog{
+  position: absolute;
+  left: 165px;
+  top: 660px;
+  font-size: 14px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #787878;
+  }
+.rectangle{
+  position: absolute;
+  width: 350px;
+  height: 44px;
+  left: 31px;
+  top: 406px;
+  background: #FFF;
+  border-radius: 25px;
+}
+
+
+#username{
+  top: 137px;
+  position: absolute;
+  width: 335px;
+  height: 44px;
+  left: 30px;
+  background: #FFF;
+  border-radius: 25px;
+  display: block;
+}
+#name1{
+  top: 208px;
+  position: absolute;
+  width: 335px;
+  height: 44px;
+  left: 30px;
+  background: #FFF;
+  border-radius: 25px;
+  display: block;
+}
+#surname{
+  top: 279px;
+  position: absolute;
+  width: 335px;
+  height: 44px;
+  left: 30px;
+  background: #FFF;
+  border-radius: 25px;
+  display: block;
+}
+#email{
+  top: 350px;
+  position: absolute;
+  width: 335px;
+  height: 44px;
+  left: 30px;
+  background: #FFF;
+  border-radius: 25px;
+  display: block;
+}
+#password1{
+  top: 421px;
+  position: absolute;
+  width: 335px;
+  height: 44px;
+  left: 30px;
+  background: #FFF;
+  border-radius: 25px;
+  display: block;
+}
+#paswrep{
+  top: 492px;
+  position: absolute;
+  width: 335px;
+  height: 44px;
+  left: 30px;
+  background: #FFF;
+  border-radius: 25px;
+  display: block;
+}
+
+#welcome{
+  position: absolute;
+  left: 101px;
+  top: 10px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  color: #000000;
+}
+
+#search{
+  position: fixed;
+  top: 30px;
+  left: auto;
+  width: 377px;
+  margin-left: 17px;
+  z-index: 5;
+}
+#imgsearch{
+  position: fixed;
+  top: 40px;
+  left: auto;
+  margin-left: 335px;
+  z-index: 5;
+}
+
+#paises{
+  position: absolute;
+  width: 411px;
+  height: 1010px;
+}
+.text{
+  position: absolute;
+  left: 134px;
+  top: 80px;
+  font-weight: bold;
+  font-size: 48px;
+  text-align: center;
+  letter-spacing: 0.07em;
+  color: #FFF;
+  text-shadow: 1px 3px 3px rgba(0, 0, 0, 0.9);
+  z-index: 2;
+}
+
+.pais{
+  position: absolute;
+  width: 378px;
+  height: 130px;
+  left: 17px;
+  top: 93px;
+  background-image: url(../img/india.jpg);
+  background-size: cover;
+  mix-blend-mode: darken;
+  filter: blur(1px);
+}
+
+#text01{
+  top: 225px;
+  left: 90px;
+}
+
+#p01{
+  background-image: url(../img/maldivas.jpg);
+  background-size: cover;
+  mix-blend-mode: darken;
+  filter: blur(1px);
+  top: 235px;
+}
+
+#text02{
+  top: 370px;
+  left: 130px;
+}
+
+#p02{
+  background-image: url(../img/paris.jpg);
+  background-size: cover;
+  mix-blend-mode: darken;
+  background-position: bottom;
+  filter: blur(1px);
+  top: 380px;
+}
+
+#text03{
+  top: 505px;
+  left: 105px;
+}
+
+#p03{
+  background-image: url(../img/madrid.jpg);
+  background-size: cover;
+  mix-blend-mode: darken;
+  filter: blur(1px);
+  top: 520px;
+}
+
+#text04{
+  top: 650px;
+  left: 80px;
+}
+
+#p04{
+  background-image: url(../img/canarias.jpg);
+  background-size: cover;
+  mix-blend-mode: darken;
+  filter: blur(1px);
+  top: 665px;
+}
+
+#text05{
+  top: 800px;
+  left: 80px;
+}
+
+#p05{
+  background-image: url(../img/thailandia.jpg);
+  background-size: cover;
+  mix-blend-mode: darken;
+  filter: blur(1px);
+  top: 810px;
+}
+
+#today{
+  position: absolute;
+  top: 15px;
+  left: 75px;
+  width: 330px;
+  background-color: black;
+}
+#yester{
+  position: absolute;
+  top: 235px;
+  left: 100px;
+  width: 300px;
+  background-color: black;
+}
+.usuario{
+  height: 48px;
+  width:  48px;
+  background-color: pink;
+  border-radius: 100%;
+  color: black;
+}
+.nombre{
+  font-style: medium;
+  font-weight: 500;
+  font-size: 13px;
+  margin-left: 60px;
+  margin-top: 5px;
+  color: black;
+}
+.nombrechats{
+  font-style: medium;
+  font-weight: 500;
+  font-size: 13px;
+  margin-left: 60px;
+  margin-top: 2px;
+  color: black;
+}
+#nombreuser{
+  position: absolute;
+  top: 10px;
+  left: 100px;
+  font-size: 17px;
+  font-style: medium;
+  font-weight: 500;
+}
+.textonoti{
+  margin-left: 60px;
+  margin-top: -10px;
+  width: 400px;
+  font-size: 13px;
+}
+
+.textusuario{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  margin-left: 60px;
+  color: black;
+}
+.textochats{
+  margin-left: 60px;
+  margin-top: -10px;
+  width: 300px;
+  font-size: 13px;
+}
+
+.textboc{
+  font-size: 15px;
+  padding-top: 5px;
+  padding-left: 7px;
+  z-index: 3;
+}
+
+.bocadilloder{
+  background: #2CB1C8;
+  border-radius: 2px;
+  margin-left: 122px;
+}
+
+.bocadilloder::before{
+  content: "";
+  display: block;
+  position: absolute;
+  height: 0rem;
+  width: 0rem;
+  top: 148px;
+  left: 370px;
+  border-right: 1rem solid transparent;
+  border-left: 1rem solid transparent;
+  border-top: 1rem solid transparent;
+  border-bottom: 1rem solid #2CB1C8;
+  border-radius: 0.3rem;
+}
+
+.bocadilloizq{
+  background: #C4C4C4;
+  border-radius: 2px;
+  margin-left: 20px;
+}
+
+.bocadilloizq02{
+  background: #C4C4C4;
+  border-radius: 2px;
+  margin-left: 20px;
+}
+
+.bocadilloizq::before{
+  content: "";
+  display: block;
+  position: absolute;
+  height: 0rem;
+  width: 0rem;
+  top: 89px;
+  left: 5px;
+  border-right: 1rem solid transparent;
+  border-left: 1rem solid transparent;
+  border-top: 1rem solid transparent;
+  border-bottom: 1rem solid #C4C4C4;
+  border-radius: 0.3rem;
+}
+
+.bocadilloizq02::after{
+  content: "";
+  display: block;
+  position: absolute;
+  height: 0rem;
+  width: 0rem;
+  top: 207px;
+  left: 5px;
+  border-right: 1rem solid transparent;
+  border-left: 1rem solid transparent;
+  border-top: 1rem solid transparent;
+  border-bottom: 1rem solid #C4C4C4;
+  border-radius: 0.3rem;
+  z-index: -1;
+}
+
+.barra{
+  background-color: #C4C4C4;
+  width: 411px;
+  height: 77px;
+}
+
+.write{
+  position: fixed;
+  width: 386px;
+  height: 40px;
+  background: #C4C4C4;
+  border-radius: 5px;
+  margin-left: 13px;
+  margin-top: 260px;
+}
+
+.writehere{
+  font-size: 18px;
+  color: #969595;
+  width: 300px;
+  background-color: transparent;
+  margin-left: -370px;
+  margin-top: 10px;
+  padding: 0;
+}
+
+#camarachat{
+  margin-left: 350px;
+  margin-top: 10px;
+}
+
+#back{
+  margin-left: 15px;
+  margin-top: 25px;
+}
+#videollamada{
+  position: absolute;
+  top: 20px;
+  left: 350px;
+  z-index: 5;
+}
+
+#boc1{
+  height: 29px;
+  width: 266px;
+}
+
+#boc2{
+  height: 44px;
+  width: 266px;
+}
+
+#boc3{
+  height: 44px;
+  width: 266px;
+}
+
+.icono{
+  position: absolute;
+  width: 111px;
+  background-image: url(../img/user.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 111px;
+  left: 18px;
+  top: 68px;
+  border-radius: 100%;
+}
+
+.icononotuser{
+  position: absolute;
+  width: 111px;
+  background-image: url(../img/user2.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 111px;
+  left: 18px;
+  top: 68px;
+  border-radius: 100%;
+}
+
+#flecha{
+  position: absolute;
+  top: 123px;
+}
+
+#name{
+  position: absolute;
+  font-size: 18px;
+  margin-left: 150px;
+  margin-top: 0;
+  top: 90px;
+}
+
+#followers{
+  position: absolute;
+  margin: 0;
+  left: 146px;
+  top: 135px;
+}
+
+#follow{
+  position: absolute;
+  margin: 0;
+  left: 274px;
+  top: 135px;
+}
+
+#followersnum{
+  position: absolute;
+  margin: 0;
+  left: 165px;
+  top: 162px;
+}
+
+#follownum{
+  position: absolute;
+  margin: 0;
+  left: 285px;
+  top: 162px;
+}
+
+#followuser{
+  position: absolute;
+  width: 190.32px;
+  height: 34px;
+  left: 14px;
+  top: 200px;
+  background: #2CB2C8;
+  border-radius: 5px;
+}
+
+#followuser2{
+  position: absolute;
+  width: 190.32px;
+  height: 34px;
+  left: 14px;
+  top: 200px;
+  background: #FFF;
+  border-radius: 5px;
+}
+
+#followtext{
+  margin: 0;
+  padding-left: 70px;
+  padding-top: 7px;
+  color: black;
+}
+
+#followtext2{
+  margin: 0;
+  padding-left: 60px;
+  padding-top: 7px;
+  color: black;
+}
+
+#mensajeuser{
+  position: absolute;
+  width: 190.32px;
+  height: 34px;
+  left: 208px;
+  top: 200px;
+  background: #FFF;
+  border-radius: 5px;
+}
+
+#mensajetext{
+  margin: 0;
+  padding-left: 70px;
+  padding-top: 7px;
+  color: black;
+}
+
+
+#trips{
+  position: absolute;
+  width: 174px;
+  height: 29px;
+  left: 31px;
+  top: 215px;
+  background: #D4EAEE;
+}
+
+#trips02{
+  position: absolute;
+  width: 174px;
+  height: 29px;
+  left: 31px;
+  top: 215px;
+  background: #FFF;
+}
+
+#trips03{
+  position: absolute;
+  width: 174px;
+  height: 29px;
+  left: 31px;
+  top: 245px;
+  background: #D4EAEE;
+}
+
+#trips04{
+  position: absolute;
+  width: 174px;
+  height: 29px;
+  left: 31px;
+  top: 245px;
+  background: #FFF;
+}
+
+#tripstext{
+  margin: 0;
+  padding-left: 70px;
+  padding-top: 5px;
+  font-family: Roboto;
+  color: black;
+}
+
+#planns{
+  position: absolute;
+  width: 174px;
+  height: 29px;
+  left: 207px;
+  top: 215px;
+  background: #FFF;
+}
+
+#planns02{
+  position: absolute;
+  width: 174px;
+  height: 29px;
+  left: 207px;
+  top: 215px;
+  background: #D4EAEE;
+}
+
+#planns03{
+  position: absolute;
+  width: 174px;
+  height: 29px;
+  left: 207px;
+  top: 245px;
+  background: #FFF;
+}
+
+#planns04{
+  position: absolute;
+  width: 174px;
+  height: 29px;
+  left: 207px;
+  top: 245px;
+  background: #D4EAEE;
+}
+
+#plannstext{
+  margin: 0;
+  padding-left: 70px;
+  padding-top: 5px;
+  font-family: Roboto;
+  color: black;
+}
+
+#rect01trip{
+  position: absolute;
+  width: 378px;
+  height: 130px;
+  left: 17px;
+  top: 284px;
+  background-color: pink;
+  background-image: url(../img/italia.jpg);
+  background-size: cover;
+  background-position: center;
+  filter: blur(1px);
+}
+
+#rect02trip{
+  position: absolute;
+  width: 378px;
+  height: 130px;
+  left: 17px;
+  top: 438px;
+  background-color: pink;
+  background-image: url(../img/paris.jpg);
+  background-size: cover;
+  background-position: bottom;
+  filter: blur(1px);
+}
+
+#rect03trip{
+  position: absolute;
+  width: 378px;
+  height: 130px;
+  left: 17px;
+  top: 284px;;
+  background-color: pink;
+  background-image: url(../img/maldivas.jpg);
+  background-size: cover;
+  background-position: top;
+  filter: blur(1px);
+}
+
+#rect04trip{
+  position: absolute;
+  width: 378px;
+  height: 130px;
+  left: 17px;
+  top: 438px;
+  background-color: pink;
+  background-image: url(../img/japon.jpg);
+  background-size: cover;
+  background-position: center;
+  filter: blur(1px);
+}
+
+
+
+
+#rect05trip{
+  position: absolute;
+  width: 378px;
+  height: 130px;
+  left: 17px;
+  top: 284px;
+  background-color: pink;
+  background-image: url(../img/london.png);
+  background-size: cover;
+  background-position: center;
+  filter: blur(1px);
+}
+
+#rect06trip{
+  position: absolute;
+  width: 378px;
+  height: 130px;
+  left: 17px;
+  top: 438px;
+  background-color: pink;
+  background-image: url(../img/barcelona.jpg);
+  background-size: cover;
+  background-position: center;
+  filter: blur(1px);
+}
+
+#rect07trip{
+  position: absolute;
+  width: 378px;
+  height: 130px;
+  left: 17px;
+  top: 590px;
+  background-color: pink;
+  background-image: url(../img/thailandia.jpg);
+  background-size: cover;
+  background-position: top;
+  filter: blur(1px);
+}
+
+#rect08trip{
+  position: absolute;
+  width: 378px;
+  height: 130px;
+  left: 17px;
+  top: 740px;
+  background-color: pink;
+  background-image: url(../img/norway.jpg);
+  background-size: cover;
+  background-position: center;
+  filter: blur(1px);
+}
+
+
+
+
+#rect09trip{
+  position: absolute;
+  width: 378px;
+  height: 130px;
+  left: 17px;
+  top: 284px;
+  background-color: pink;
+  background-image: url(../img/mexico.jpg);
+  background-size: cover;
+  background-position: center;
+  filter: blur(1px);
+}
+
+#rect10trip{
+  position: absolute;
+  width: 378px;
+  height: 130px;
+  left: 17px;
+  top: 438px;
+  background-color: pink;
+  background-image: url(../img/ibiza.jpg);
+  background-size: cover;
+  background-position: center;
+  filter: blur(1px);
+}
+
+.nompais{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  text-align: center;
+  letter-spacing: 0.07em;
+  color: #FFFFFF;
+  text-shadow: 1px 3px 3px rgba(0, 0, 0, 0.9);
+  margin-top: 30px;
+}
+
+#p01trip{
+  position: absolute;
+  left: 130px;
+  top: 290px;
+  z-index: 5;
+}
+
+#p02trip{
+  position: absolute;
+  left: 130px;
+  top: 440px;
+  z-index: 5;
+}
+
+#p03trip{
+  position: absolute;
+  left: 80px;
+  top: 290px;
+  z-index: 5;
+}
+
+#p04trip{
+  position: absolute;
+  left: 120px;
+  top: 445px;
+  z-index: 5;
+}
+
+
+
+#p05trip{
+  position: absolute;
+  left: 105px;
+  top: 290px;
+  z-index: 5;
+}
+
+#p06trip{
+  position: absolute;
+  left: 60px;
+  top: 440px;
+  z-index: 5;
+}
+
+#p07trip{
+  position: absolute;
+  left: 85px;
+  top: 600px;
+  z-index: 5;
+}
+
+#p08trip{
+  position: absolute;
+  left: 105px;
+  top: 747px;
+  z-index: 5;
+}
+
+
+
+#p09trip{
+  position: absolute;
+  left: 105px;
+  top: 290px;
+  z-index: 5;
+}
+#p10trip{
+  position: absolute;
+  left: 138px;
+  top: 440px;
+  z-index: 5;
+}
+
+#us01{
+  position: absolute;
+  top: 90px;
+  left: 23px;
+  background-image: url(../img/user2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#us02{
+  position: absolute;
+  top: 150px;
+  left: 23px;
+  background-image: url(../img/user14.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#us03{
+  position: absolute;
+  top: 210px;
+  left: 23px;
+  background-image: url(../img/user13.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#us04{
+  position: absolute;
+  top: 270px;
+  left: 23px;
+  background-image: url(../img/user12.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#us05{
+  position: absolute;
+  top: 50px;
+  left: 23px;
+  background-image: url(../img/user2.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#us06{
+  position: absolute;
+  top: 110px;
+  left: 23px;
+  background-image: url(../img/user4.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#us07{
+  position: absolute;
+  top: 170px;
+  left: 23px;
+  background-image: url(../img/user5.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#us08{
+  position: absolute;
+  top: 270px;
+  left: 23px;
+  background-image: url(../img/user3.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#us09{
+  position: absolute;
+  top: 20px;
+  left: 23px;
+  background-image: url(../img/user4.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#us10{
+  position: absolute;
+  top: 90px;
+  left: 23px;
+  background-image: url(../img/user6.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#us11{
+  position: absolute;
+  top: 160px;
+  left: 23px;
+  background-image: url(../img/user7.jpg);
+  background-size: cover;
+  background-position: center;
+}
+#us12{
+  position: absolute;
+  top: 13px;
+  left: 40px;
+  background-image: url(../img/user4.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.days{
+  position: absolute;
+  font-size: 15px;
+  left: 23px;
+}
+
+#day2{
+  position: absolute;
+  top:220px;
+
+}
+.textmailpasw{
+  margin-top: 10px;
+  margin-left: 20px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #969595;
+}
+#em{
+  position: absolute;
+  width: 335px;
+  height: 44px;
+  left: 30px;
+  top: 400px;
+  background: #FFF;
+  border-radius: 25px;
+  display: block;
+}
+
+#pasw{
+  position: absolute;
+  width: 335px;
+  height: 44px;
+  left: 30px;
+  top: 470px;
+  background: #FFF;
+  border-radius: 25px;
+  display: block;
+}
+
+
+input[type="email"], input[type="password"],
+input[type="text"]
+{
+  border: none;
+  position: absolute;
+  padding-left: 15px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #969595;
+
+}
+
+.enter{
+  position: absolute;
+  left: 128px;
+  top: 572px;
+}
+#enteraccount{
+  top: 620px;
+}
+
+
+.nomuser{
+  position: absolute;
+  width: 91px;
+  height: 18px;
+  left: 75px;
+  top: 3px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 15px;
+  color: white;
+}
+
+.nomlloc{
+  position: absolute;
+  width: 60px;
+  height: 18px;
+  left: 75px;
+  top: 25px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  color: white;
+}
+
+.send{
+  position: fixed;
+  width: 300px;
+  height: 29px;
+  left: auto;
+  margin-left: 15px;
+  bottom: 100px;
+  border: 1px solid #FFFFFF;
+  border-radius: 5px;
+  background-color: black;
+  filter: opacity(50%);
+  z-index: 7;
+}
+
+#friend{
+  position: absolute;
+  top: 20px;
+  height: 36px;
+  left: auto;
+  margin-left: 335px;
+  z-index: 5;
+}
+
+#friend1{
+  position: absolute;
+  top: 750px;
+  height: 36px;
+  left: auto;
+  margin-left: 335px;
+  z-index: 5;
+}
+
+#friend2{
+  position: absolute;
+  top: 1480px;
+  height: 36px;
+  left: auto;
+  margin-left: 335px;
+  z-index: 5;
+}
+
+#like0{
+  position: absolute;
+  bottom: 180px;
+  left: auto;
+  margin-left: 335px;
+  z-index: 5;
+}
+#like1{
+  position: absolute;
+  bottom: -540px;
+  left: auto;
+  margin-left: 335px;
+  z-index: 5;
+}
+
+#like2{
+  position: absolute;
+  bottom: -1270px;
+  left: auto;
+  margin-left: 335px;
+  z-index: 5;
+}
+
+#add{
+  position: fixed;
+  bottom: 100px;
+  margin-right: 0px;
+  z-index: 8;
+}
+
+#write{
+  font-size: 17px;
+  color: #FFF;
+  padding-top: 0;
+  margin-top: 5px;
+  margin-left: 10px;
+  z-index: 7;
+  background-color: transparent;
+}
+
+#explore{
+  position: fixed;
+  width: 35px;
+  height: 30px;
+  left: auto;
+  margin-left: 20px;
+  bottom: 10px;
+  z-index: 7;
+}
+
+#notis{
+  position: fixed;
+  width: 28px;
+  height: 32px;
+  left: auto;
+  margin-left: 105px;
+  bottom: 10px;
+  z-index: 7;
+}
+
+#home{
+  position: fixed;
+  width: 45px;
+  height: 40px;
+  left: auto;
+  margin-left: 183px;
+  bottom: 10px;
+  z-index: 7;
+}
+
+#chats{
+  position: fixed;
+  width: 32px;
+  height: 28px;
+  left: auto;
+  margin-left: 280px;
+  bottom: 10px;
+  z-index: 7;
+}
+
+.youuser{
+  position: fixed;
+  width: 36px;
+  height: 36px;
+  left: auto;
+  margin-left: 350px;
+  bottom: 10px;
+  border-radius: 100%;
+  z-index: 7;
+}
+
+.bar{
+  position: fixed;
+  margin-left: auto;
+  bottom: -5px;
+  z-index: 6;
+}
+
+.users1{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 90px;
+  width: 411px;
+  background-image:linear-gradient(to bottom, black, transparent);
+}
+
+
+.users2{
+  position: absolute;
+  top: 730px;
+  left: 0;
+  height: 90px;
+  width: 411px;
+  background-image:linear-gradient(to bottom, black, transparent);
+}
+
+.users3{
+  position: absolute;
+  top: 1460px;
+  left: 0;
+  height: 90px;
+  width: 411px;
+  background-image:linear-gradient(to bottom, black, transparent);
+}
+
+.user{
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  left: 15px;
+  top: 15px;
+  border-radius: 100%;
+}
+#video2{
+  top: 0;
+  margin-top: -5px;
+  padding-top: 0;
+  border: 0;
+}
+
+
+
+
+#btn-menu{
+  display: none;
+}
+
+#btn-menu:checked ~ .menu{
+  transition: 0.5s;
+  background: rgba(44, 177, 200, 1);
+  z-index: 7;
+
+  position: fixed;
+}
+
+
+header label{
+  display: block;
+  position: absolute;
+  width: 59px;
+  height: 59px;
+  right: 15px;
+  bottom: 98px;
+
+}
+
+header label:hover{
+  cursor: pointer;
+
+}
+
+.menu ul{
+  list-style: none;
+  padding: 0;
+  display: block;
+  flex-direction: column;
+}
+
+.menu li a{
+  display: flex;
+  width: 150px;
+  padding: 12px 20px;
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+
+}
+
+.menu{
+  position: absolute;
+  width: 275px;
+  transition: 0.5s;
+  background-color: transparent;
+  border-radius: 20px;
+  bottom: 105px;
+  margin-left: 120px;
+  z-index: -3;
+}
+
+
+.icohambu{
+  height: 40px;
+  display: block;
+  float: left;
+  margin-left: 15px;
+  margin-right: 5px;
+}
+
+#icohambu2{
+  margin-left: 17px;
+  margin-right: 7px;
+}
