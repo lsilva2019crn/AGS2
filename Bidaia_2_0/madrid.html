@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+<head>
+  <html lang="es" manifest="cache.manifest">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="red">
+  <meta name="theme-color" content="red">
+  <meta name="msapplication-navbutton-color" content="red">
+  <link rel="icon" sizes="192x192" href="img/icon.png">
+  <link rel="icon" sizes="512x512" href="img/icon.png">
+  <link rel="apple-touch-icon" href="img/icon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable = no">
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+  <title>Bidaia</title>
+  <script type="text/javascript" src="js/java.js"></script>
+</head>
+<body>
+  <div class="contenedor">
+
+
+    <img id="friend"src="img/add.png" alt="">
+    <img id="friend1"src="img/add.png" alt="">
+    <img id="friend2"src="img/add.png" alt="">
+
+
+    <img id="like0"src="img/unlike.png" alt="">
+    <img id="like1"src="img/unlike.png" alt="">
+    <img id="like2"src="img/unlike.png" alt="">
+
+    <script type="text/javascript">
+      var imatge0=document.getElementById('friend');
+      imatge0.addEventListener('click',friend);
+
+      var imatge1=document.getElementById('friend1');
+      imatge1.addEventListener('click',friend1);
+
+      var imatge2=document.getElementById('friend2');
+      imatge2.addEventListener('click',friend2);
+
+      var img0=document.getElementById('like0');
+      img0.addEventListener('click',like0);
+
+      var img1=document.getElementById('like1');
+      img1.addEventListener('click',like1);
+
+      var img2=document.getElementById('like2');
+      img2.addEventListener('click',like2);
+
+
+      function friend(){
+        if(imatge0.src.match("img/add.png")){
+          imatge0.src="img/friend.png";
+          console.log("friend");
+        }
+
+        else{
+          imatge0.src="img/add.png";
+          console.log("notfriend");
+        }
+      }
+
+      function friend1(){
+        if(imatge1.src.match("img/add.png")){
+          imatge1.src="img/friend.png";
+          console.log("friend");
+        }
+
+        else{
+          imatge1.src="img/add.png";
+          console.log("notfriend");
+        }
+      }
+
+      function friend2(){
+        if(imatge2.src.match("img/add.png")){
+          imatge2.src="img/friend.png";
+          console.log("friend");
+        }
+
+        else{
+          imatge2.src="img/add.png";
+          console.log("notfriend");
+        }
+      }
+
+      function like0(){
+        if(img0.src.match("img/unlike.png")){
+          img0.src="img/like.png";
+          console.log("like");
+        }
+
+        else{
+          img0.src="img/unlike.png";
+          console.log("unlike");
+        }
+      }
+
+      function like1(){
+        if(img1.src.match("img/unlike.png")){
+          img1.src="img/like.png";
+          console.log("like");
+        }
+
+        else{
+          img1.src="img/unlike.png";
+          console.log("unlike");
+        }
+      }
+
+      function like2(){
+        if(img2.src.match("img/unlike.png")){
+          img2.src="img/like.png";
+          console.log("like");
+        }
+
+        else{
+          img2.src="img/unlike.png";
+          console.log("unlike");
+        }
+      }
+    </script>
+
+    <div class="send">
+      <input type="text" id="write" placeholder="Send a message...">
+    </div>
+    <header>
+      <input type="checkbox" id="btn-menu">
+      <label for="btn-menu"><img id="add"src="img/addcontent.png" alt=""></label>
+
+      <nav class="menu">
+        <ul>
+          <img src="img/table.png" alt="" class="icohambu">
+          <li><a href="#">Make a board</a></li>
+          <img src="img/camera.png" alt="" class="icohambu" id="icohambu2">
+          <li><a href="#">Camera</a></li>
+          <img src="img/gallery.png" alt="" class="icohambu">
+          <li><a href="#">Gallery</a></li>
+        </ul>
+      </nav>
+    </header>
+    <a href="explore.html">
+      <img id="explore"src="img/search.png" alt="">
+    </a>
+    <a href="noti.html">
+      <img id="notis"src="img/notification.png" alt="">
+    </a>
+    <a href="index.html">
+      <img id="home"src="img/home.png" alt="">
+    </a>
+    <a href="chats.html">
+      <img id="chats"src="img/message.png" alt="">
+    </a>
+    <a href="usertrips.html">
+      <img class="youuser" src="img/user.jpg" alt="">
+    </a>
+    <div class="bar">
+      <img src="img/bar.png" alt="">
+    </div>
+
+    <div class="bar">
+      <img src="img/bar.png" alt="">
+    </div>
+
+    <div class="users1">
+      <img class="user" src="img/user30.jpg" alt="">
+      <p class="nomuser">Benise29</p>
+      <p class="nomlloc">Madrid</p>
+    </div>
+
+    <video src="videos/madrid01.mp4" width="411px" height="731px"  autoplay loop muted></video>
+
+    <div class="users2">
+      <img class="user" src="img/user31.jpg" alt="">
+      <p class="nomuser">Ruth_abigail</p>
+      <p class="nomlloc">Madrid</p>
+    </div>
+
+    <video id="video2"src="videos/madrid02.mp4" width="411px" height="731px"  autoplay loop muted></video>
+
+
+    <div class="users3">
+      <img class="user" src="img/user32.jpg" alt="">
+      <p class="nomuser">Teresa_no_h</p>
+      <p class="nomlloc">Madrid</p>
+    </div>
+
+    <video id="video3"src="videos/madrid03.mp4" width="411px" height="731px"  autoplay loop muted></video>
+
+  </div>
+</body>
+</html>
