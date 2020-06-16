@@ -9,6 +9,7 @@ body{
 .contenedor{
   position: relative;
   width: 100vw;
+  height: 100vw;
   margin: 0;
   padding: 0;
   top: 0;
@@ -1126,7 +1127,7 @@ input[type="text"]
 
 #friend1{
   position: absolute;
-  top: 750px;
+  top: 730px;
   height: 36px;
   left: auto;
   margin-left: 335px;
@@ -1135,7 +1136,7 @@ input[type="text"]
 
 #friend2{
   position: absolute;
-  top: 1480px;
+  top: 1440px;
   height: 36px;
   left: auto;
   margin-left: 335px;
@@ -1252,7 +1253,7 @@ input[type="text"]
 
 .users2{
   position: absolute;
-  top: 730px;
+  top: 710px;
   left: 0;
   height: 90px;
   width: 411px;
@@ -1261,7 +1262,7 @@ input[type="text"]
 
 .users3{
   position: absolute;
-  top: 1460px;
+  top: 1422px;
   left: 0;
   height: 90px;
   width: 411px;
