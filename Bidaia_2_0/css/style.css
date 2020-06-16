@@ -4,9 +4,9 @@ body{
 
 .contenedor{
   position: relative;
-  width: 411px;
-  height: 731px;
-  margin: auto;
+  width: 100vw;
+  height: 100vw;
+  margin: 0;
 }
 
 #contgrey{
@@ -16,11 +16,11 @@ body{
 
 #contgrey02{
   background-color: #EDECEC;
-  height: 930px;
+  height: 100vw;
 }
 #fondo{
-  width: 411px;
-  height: 731px;
+  width: 100vw;
+  height: 100vw;
 }
 
 #logosplash{
