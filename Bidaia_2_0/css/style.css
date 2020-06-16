@@ -9,7 +9,6 @@ body{
 .contenedor{
   position: relative;
   width: 100vw;
-  height: 100vw;
   margin: 0;
   padding: 0;
   top: 0;
@@ -24,9 +23,7 @@ body{
 
 #contgrey02{
   background-color: #EDECEC;
-  height: 100vw;
-  top: 0;
-  left: 0;
+  height: 720px;
 }
 #fondo{
   width: 100vw;
@@ -755,7 +752,7 @@ body{
   left: 17px;
   top: 284px;
   background-color: pink;
-  background-image: url(../img/london.png);
+  background-image: url(../img/london.jpg);
   background-size: cover;
   background-position: center;
   filter: blur(1px);
